@@ -1,0 +1,4 @@
+ desc "Remove files whose names end with a tilde"
+ task :delete_unix_backups do
+   #ruby file.deleter.rb
+ end

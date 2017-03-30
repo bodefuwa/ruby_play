@@ -1,0 +1,12 @@
+desc "Run chain example file"
+task :run_chain_app do
+  ruby "chain.rb"
+  # puts 'I can be run'
+  # file = Dir['chain.rb']
+  # ruby file #unless file.exist!
+end
+
+desc "Output env details"
+task :get_env_details do
+  ruby "env_details.rb"
+end
