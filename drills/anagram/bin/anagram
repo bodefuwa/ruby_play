@@ -43,7 +43,7 @@ end
 ARGV.each do |word|
   signature = signature_of(word)
   if signature[signature]
-    put "Anagram of #{word}: #{signatures[signature].join(', ')}"
+    puts "Anagram of #{word}: #{signatures[signature].join(', ')}"
   else
     puts "No anagrams of #{word} in #{dictionary}"
   end
